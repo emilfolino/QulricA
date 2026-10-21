@@ -1,0 +1,456 @@
+{
+  "schema": "qulrica/program-prerequisite-qa-combined@1",
+  "program": {
+    "code": "PAGWG",
+    "name": "Webbprogrammering",
+    "start": "HT27",
+    "url": "https://plan.bth.se/programmes/918bd1a0-43bf-11f1-9bfb-c8fd9ca940c5"
+  },
+  "date": "2026-10-21",
+  "runs": [
+    {
+      "harness": "claude-code",
+      "model": "claude-sonnet-5-5",
+      "date": "2026-10-21",
+      "verdicts": {
+        "OK": 13,
+        "CONDITIONAL": 0,
+        "GAP": 2,
+        "UNCLEAR": 0
+      },
+      "source": "reports/PAGWG-HT27__claude-code__claude-sonnet-5-5__2026-10-21.json"
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4",
+      "date": "2026-10-21",
+      "verdicts": {
+        "OK": 14,
+        "CONDITIONAL": 0,
+        "GAP": 1,
+        "UNCLEAR": 0
+      },
+      "source": "reports/PAGWG-HT27__codex__gpt-5.4__2026-10-21.json"
+    }
+  ],
+  "unanimous_verdicts": 14,
+  "pairwise": [
+    {
+      "a": "claude-code / claude-sonnet-5-5",
+      "b": "codex / gpt-5.4",
+      "courses": 15,
+      "exact": 14,
+      "flag": 14
+    }
+  ],
+  "issues": [
+    {
+      "seq": 13,
+      "course": "DV1709",
+      "semester": "VT29",
+      "type": "competence-gap",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "high",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-001",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-004",
+          "severity": "high",
+          "description": "DV1709 'Förutsatta kunskaper' require knowledge of Docker (and Git), but no earlier mandatory course teaches Docker, and Git is only implicit in DV1707's 'Versionshantering'. DV1709 itself lists Docker/docker compose as course content, so the plan contradicts itself.",
+          "recommendation": "Either remove Docker from the assumed knowledge in DV1709 (since the course teaches it), or add Docker to an earlier course (e.g. DV1708 or DV1711); also name Git explicitly in DV1707 or an earlier course."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-004",
+          "severity": "high",
+          "description": "DV1709 assumes prior knowledge in Git and Docker in section 2.2, but earlier mandatory courses do not explicitly provide Git and provide no Docker competence at all before the course starts.",
+          "recommendation": "Either introduce Git and Docker explicitly in earlier mandatory courses, or revise DV1709 so those tools are taught from scratch rather than assumed as prior knowledge."
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "course": "PA1438",
+      "semester": "VT29",
+      "type": "competence-gap",
+      "support": 1,
+      "runs": [
+        "claude-code / claude-sonnet-5-5"
+      ],
+      "severity": "medium",
+      "tier": "minority",
+      "other_types_same_course": [],
+      "id": "C-002",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-005",
+          "severity": "medium",
+          "description": "The thesis outcomes assume scientific foundation, literature search/critical source evaluation and report writing, but no mandatory course before PA1438 teaches research methodology or academic writing; only short reflections occur in DV1705 and PA1493.",
+          "recommendation": "Add content on scientific method, source criticism and technical report writing to an earlier mandatory course (e.g. PA1493) or add a short module/course before the thesis."
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "course": "DV1705",
+      "semester": "HT27",
+      "type": "ambiguous-requirement",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "low",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-003",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-001",
+          "severity": "low",
+          "description": "The prerequisite 'kurs i webbprogrammering, 7,5 hp' does not name a course; the matching course is DV1704 Webbteknologier.",
+          "recommendation": "State the prerequisite as course code DV1704 (or its equivalent) in the plan."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-001",
+          "severity": "low",
+          "description": "DV1705 requires \"genomgången kurs i webbprogrammering, 7,5 hp\" without naming the actual prior course code, even though DV1704 is the obvious intended match in the program.",
+          "recommendation": "Replace the generic wording with the exact course code, or an explicitly defined subject/credit combination, in the prerequisite text."
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "course": "DV1706",
+      "semester": "VT28",
+      "type": "ambiguous-requirement",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "low",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-004",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-002",
+          "severity": "low",
+          "description": "The prerequisite 'kurser i webbprogrammering, 15 hp' names no course codes; it is satisfied by DV1704 + DV1705 by content only.",
+          "recommendation": "Name DV1704 and DV1705 explicitly in the prerequisite."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-002",
+          "severity": "low",
+          "description": "DV1706 requires \"kurser i webbprogrammering, 15 hp\" without naming the actual earlier courses, even though DV1704 and DV1705 are the clear intended matches in the program.",
+          "recommendation": "State the exact course codes, or define the required prior web-programming content more explicitly, in the prerequisite text."
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "course": "DV1707",
+      "semester": "VT28",
+      "type": "other",
+      "support": 1,
+      "runs": [
+        "claude-code / claude-sonnet-5-5"
+      ],
+      "severity": "low",
+      "tier": "minority",
+      "other_types_same_course": [
+        "ambiguous-requirement"
+      ],
+      "id": "C-005",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-003",
+          "severity": "low",
+          "description": "DV1707 lists 'Versionshantering, kontinuerlig integration och driftsättning' and group project methodology as content, but no earlier course in the program (HT27-VT28 period 3) introduces version control or CI; it is unclear whether the course teaches them or assumes them.",
+          "recommendation": "State in the DV1707 plan whether version control/CI are taught or assumed, and if assumed, add an introduction to git in an earlier course (e.g. DV1670 or DV1701)."
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "course": "DV1707",
+      "semester": "VT28",
+      "type": "ambiguous-requirement",
+      "support": 1,
+      "runs": [
+        "codex / gpt-5.4"
+      ],
+      "severity": "low",
+      "tier": "minority",
+      "other_types_same_course": [
+        "other"
+      ],
+      "id": "C-006",
+      "items": [
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-003",
+          "severity": "low",
+          "description": "DV1707 uses the generic prerequisite wording \"kurser i webbprogrammering, 15 hp\" instead of naming the actual earlier courses that satisfy it in the program.",
+          "recommendation": "Name the relevant course codes or define the expected prior web-programming content explicitly in the prerequisite section."
+        }
+      ]
+    }
+  ],
+  "matrix": [
+    {
+      "seq": 1,
+      "code": "DV1670",
+      "name": "Programmering och problemlösning med Python",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 2,
+      "code": "DV1704",
+      "name": "Webbteknologier",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 3,
+      "code": "DV1701",
+      "name": "Objektorienterad programmering i CSharp",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 4,
+      "code": "DV1705",
+      "name": "UX-design med JavaScript",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 5,
+      "code": "DV1703",
+      "name": "Databasteknik",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 6,
+      "code": "DV1706",
+      "name": "Webbapplikationer för mobila enheter",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 7,
+      "code": "DV1702",
+      "name": "Algoritmer och datastrukturer",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 8,
+      "code": "DV1707",
+      "name": "Projekt webbprogrammering frontend",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 9,
+      "code": "PA1493",
+      "name": "Mjukvaruutvecklingsprojekt",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 10,
+      "code": "DV1711",
+      "name": "Programmering med JavaScript och Node",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 11,
+      "code": "MA1507",
+      "name": "Diskret matematik och algoritmer",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 12,
+      "code": "DV1708",
+      "name": "Webbprogrammering backend",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 13,
+      "code": "DV1709",
+      "name": "Driftsättning av webbtjänster på Linux server",
+      "semester": "VT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "GAP",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "GAP",
+        "codex / gpt-5.4": "GAP"
+      }
+    },
+    {
+      "seq": 14,
+      "code": "PA1438",
+      "name": "Självständigt arbete i Webbprogrammering",
+      "semester": "VT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "SPLIT",
+      "unanimous": false,
+      "flagged_by": 1,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "GAP",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 15,
+      "code": "DV1710",
+      "name": "Projekt webbprogrammering fullstack",
+      "semester": "VT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    }
+  ]
+}

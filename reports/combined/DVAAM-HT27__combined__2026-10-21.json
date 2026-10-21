@@ -1,0 +1,1424 @@
+{
+  "schema": "qulrica/program-prerequisite-qa-combined@1",
+  "program": {
+    "code": "DVAAM",
+    "name": "Civilingenjör i AI och maskininlärning",
+    "start": "HT27",
+    "url": "https://plan.bth.se/programmes/428bdaeb-424e-11f1-a3d9-799c0ab34617"
+  },
+  "date": "2026-10-21",
+  "runs": [
+    {
+      "harness": "claude-code",
+      "model": "claude-sonnet-5-5",
+      "date": "2026-10-21",
+      "verdicts": {
+        "OK": 38,
+        "CONDITIONAL": 5,
+        "GAP": 1,
+        "UNCLEAR": 9
+      },
+      "source": "reports/DVAAM-HT27__claude-code__claude-sonnet-5-5__2026-10-21.json"
+    },
+    {
+      "harness": "codex",
+      "model": "gpt-5.4",
+      "date": "2026-10-21",
+      "verdicts": {
+        "OK": 41,
+        "CONDITIONAL": 4,
+        "GAP": 2,
+        "UNCLEAR": 6
+      },
+      "source": "reports/DVAAM-HT27__codex__gpt-5.4__2026-10-21.json"
+    }
+  ],
+  "unanimous_verdicts": 49,
+  "pairwise": [
+    {
+      "a": "claude-code / claude-sonnet-5-5",
+      "b": "codex / gpt-5.4",
+      "courses": 53,
+      "exact": 49,
+      "flag": 50
+    }
+  ],
+  "issues": [
+    {
+      "seq": 16,
+      "course": "DV1697",
+      "semester": "VT29",
+      "type": "competence-gap",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "high",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-001",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-004",
+          "severity": "high",
+          "description": "DV1697 labs are done mainly in C/C++ and students are expected to know the language, but the mandatory programming courses before VT29 (DV1574, DV1582) use Python and DV1730 uses assembly. No mandatory course introduces C/C++.",
+          "recommendation": "Add a C/C++ introduction to an earlier mandatory course (e.g. DV1730 or DV1682), or state C/C++ as an explicit prerequisite and include a language primer at the start of DV1697."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-002",
+          "severity": "high",
+          "description": "DV1697 explicitly expects students to already know C/C++ for the laboratory work, but the guaranteed earlier mandatory courses provide programming in Python rather than C/C++.",
+          "recommendation": "Either introduce C/C++ earlier in the mandatory path, redesign the labs to use languages already taught, or state C/C++ explicitly as a prerequisite and ensure the program provides it before DV1697."
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "course": "DV2606",
+      "semester": "HT29",
+      "type": "competence-gap",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "high",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-002",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-006",
+          "severity": "medium",
+          "description": "The labs require C/C++, but no earlier course teaches C or C++; DV1697 only uses it in labs while presupposing it.",
+          "recommendation": "Introduce C/C++ explicitly in a mandatory earlier course (see DV1697) or state C/C++ as a prerequisite and offer a primer here."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-003",
+          "severity": "high",
+          "description": "DV2606 expects prior C/C++ competence for the practical laboratory work, but the guaranteed mandatory path provides programming mainly in Python and does not explicitly teach C/C++ before the course.",
+          "recommendation": "Add C/C++ earlier in the mandatory path, redesign the course labs to use already taught languages, or state C/C++ explicitly as a prerequisite and ensure the program supplies it before DV2606."
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "course": "IY2658",
+      "semester": "VT31",
+      "type": "missing-course-plan",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "high",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-003",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-013",
+          "severity": "high",
+          "description": "No published course plan for IY2658 (VT31, mandatory, 6 hp, Avancerad nivå); the fetch found no link on the program page.",
+          "recommendation": "Publish the course plan (with prerequisites, content and learning outcomes) before the program is offered, or remove the course from the program."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-009",
+          "severity": "high",
+          "description": "No published course plan is available for IY2658 in VT31, so the progression and prerequisites for this mandatory course cannot be reviewed.",
+          "recommendation": "Publish the course plan before the course is part of the mandatory study path, or replace the occurrence with a course that has a published plan."
+        }
+      ]
+    },
+    {
+      "seq": 53,
+      "course": "DV2649",
+      "semester": "VT32",
+      "type": "missing-course-plan",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "high",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-004",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-018",
+          "severity": "high",
+          "description": "No published course plan for DV2649 (VT32, mandatory, 30 hp, Avancerad nivå, degree project); the fetch found no link on the program page.",
+          "recommendation": "Publish the course plan (with prerequisites, content and learning outcomes) before the program is offered, or remove the course from the program."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-014",
+          "severity": "high",
+          "description": "No published course plan is available for DV2649 in VT32, so the mandatory final course occurrence cannot be reviewed.",
+          "recommendation": "Publish the course plan well before students reach the final semester, or replace the occurrence with a thesis course that has a published plan."
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "course": "PA1484",
+      "semester": "HT28",
+      "type": "ambiguous-requirement",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-005",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-003",
+          "severity": "medium",
+          "description": "The prerequisite 'introduktion till ingenjörsarbete/-rollen' (6 hp) does not match any course in the program by name or learning outcomes; DV1683 and PA1481 only partly touch the topic.",
+          "recommendation": "Name the intended course code(s) in the prerequisite, or reword it (e.g. to state 'DV1683') so that satisfaction can be verified; alternatively add an explicit engineering-role outcome to the intended course."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-001",
+          "severity": "low",
+          "description": "The prerequisite \"6 avklarade hp från kurser i introduktion till ingenjörsarbete/-rollen\" does not identify which earlier course or course code satisfies the requirement.",
+          "recommendation": "Name the specific course code or codes, for example the intended earlier introductory engineering/professional-practice course, in the prerequisite text."
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "course": "DV1688",
+      "semester": "VT30",
+      "type": "ambiguous-requirement",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-006",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-007",
+          "severity": "medium",
+          "description": "The prerequisite 'datorsäkerhet och ingenjörsarbete, 5 hp' does not correspond to any course in the program; DV1684 Säkerhetsteknik is only a partial match.",
+          "recommendation": "Replace the generic wording with the actual course code(s) (probably DV1684) in the course plan, or add DV1684 to an explicit equivalence list."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-004",
+          "severity": "low",
+          "description": "The prerequisite phrase \"datorsäkerhet och ingenjörsarbete, 5 hp\" does not identify which earlier course code is intended to satisfy it.",
+          "recommendation": "Replace the generic phrase with the specific earlier course code or codes that supply the intended security and engineering-project background."
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "course": "SL2564",
+      "semester": "HT30",
+      "type": "missing-course-plan",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-007",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-008",
+          "severity": "medium",
+          "description": "No published course plan for SL2564 (HT30, elective, 6 hp, Avancerad nivå); the fetch found no link on the program page.",
+          "recommendation": "Publish the course plan (with prerequisites, content and learning outcomes) before the program is offered, or remove the course from the program."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-005",
+          "severity": "medium",
+          "description": "No published course plan is available for SL2564 in HT30, so the course's prerequisites and expected progression cannot be reviewed.",
+          "recommendation": "Publish the course plan or replace the course occurrence with one that has a published plan before students are expected to choose it."
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "course": "DV2606",
+      "semester": "HT30",
+      "type": "competence-gap",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-008",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-009",
+          "severity": "medium",
+          "description": "The labs require C/C++, but no earlier course teaches C or C++; DV1697 only uses it in labs while presupposing it.",
+          "recommendation": "Introduce C/C++ explicitly in a mandatory earlier course (see DV1697) or state C/C++ as a prerequisite and offer a primer here."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-006",
+          "severity": "medium",
+          "description": "The course expects prior C/C++ competence for lab work, but that competence is still unavailable on the guaranteed mandatory path and can only be obtained conditionally through optional earlier study such as the HT29 offering of DV2606.",
+          "recommendation": "Either make the required C/C++ preparation explicit and place it in the mandatory path, or adapt the labs so they rely only on guaranteed prior knowledge."
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "course": "SL2565",
+      "semester": "HT30",
+      "type": "missing-course-plan",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-009",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-010",
+          "severity": "medium",
+          "description": "No published course plan for SL2565 (HT30, elective, 6 hp, Avancerad nivå); the fetch found no link on the program page.",
+          "recommendation": "Publish the course plan (with prerequisites, content and learning outcomes) before the program is offered, or remove the course from the program."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-007",
+          "severity": "medium",
+          "description": "No published course plan is available for SL2565 in HT30, so the course occurrence cannot be reviewed.",
+          "recommendation": "Publish the course plan before students are expected to choose the course, or replace the occurrence with a course that has a published plan."
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "course": "IY2650",
+      "semester": "HT30",
+      "type": "elective-dependency",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-010",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-012",
+          "severity": "medium",
+          "description": "IY2650 requires the elective IY2649 (or 'motsvarande'); a student who has not chosen IY2649 does not meet the prerequisite through mandatory courses.",
+          "recommendation": "State in the program plan that IY2649 and IY2650 must be chosen together (in this order), or clarify what 'motsvarande' covers."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-008",
+          "severity": "medium",
+          "description": "IY2650 depends on prior Venture 1 study that is only available through the elective course IY2649 in the program structure.",
+          "recommendation": "Either make IY2649 mandatory for students expected to take IY2650, or state an explicit mandatory equivalent in the program and course plan."
+        }
+      ]
+    },
+    {
+      "seq": 46,
+      "course": "MA2517",
+      "semester": "VT31",
+      "type": "missing-course-plan",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-011",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-014",
+          "severity": "medium",
+          "description": "No published course plan for MA2517 (VT31, elective, 6 hp, Avancerad nivå); the fetch found no link on the program page.",
+          "recommendation": "Publish the course plan (with prerequisites, content and learning outcomes) before the program is offered, or remove the course from the program."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-010",
+          "severity": "medium",
+          "description": "No published course plan is available for MA2517 in VT31, so the course occurrence cannot be reviewed.",
+          "recommendation": "Publish the course plan or replace the occurrence with a course that has a published plan before students are expected to select it."
+        }
+      ]
+    },
+    {
+      "seq": 50,
+      "course": "DV2606",
+      "semester": "HT31",
+      "type": "competence-gap",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-012",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-015",
+          "severity": "medium",
+          "description": "The labs require C/C++, but no earlier course teaches C or C++; DV1697 only uses it in labs while presupposing it.",
+          "recommendation": "Introduce C/C++ explicitly in a mandatory earlier course (see DV1697) or state C/C++ as a prerequisite and offer a primer here."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-011",
+          "severity": "medium",
+          "description": "The course still depends on practical C/C++ competence that is available only conditionally through earlier elective study rather than through the guaranteed mandatory path.",
+          "recommendation": "Provide guaranteed C/C++ preparation earlier in the program or redesign the labs so they rely only on mandatory prior knowledge."
+        }
+      ]
+    },
+    {
+      "seq": 51,
+      "course": "IY2650",
+      "semester": "HT31",
+      "type": "elective-dependency",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-013",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-016",
+          "severity": "medium",
+          "description": "This is a repeated offering of IY2650 (see seq 41). IY2650 requires the elective IY2649 (or 'motsvarande'); a student who has not chosen IY2649 does not meet the prerequisite through mandatory courses.",
+          "recommendation": "State in the program plan that IY2649 and IY2650 must be chosen together (in this order), or clarify what 'motsvarande' covers."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-012",
+          "severity": "medium",
+          "description": "IY2650 still depends on prior Venture 1 study that is only available through the elective course IY2649 in the program structure.",
+          "recommendation": "Make the Venture 1 background mandatory for students expected to take IY2650, or specify a mandatory equivalent course in the course plan and program structure."
+        }
+      ]
+    },
+    {
+      "seq": 52,
+      "course": "SL2565",
+      "semester": "HT31",
+      "type": "missing-course-plan",
+      "support": 2,
+      "runs": [
+        "claude-code / claude-sonnet-5-5",
+        "codex / gpt-5.4"
+      ],
+      "severity": "medium",
+      "tier": "consensus",
+      "other_types_same_course": [],
+      "id": "C-014",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-017",
+          "severity": "medium",
+          "description": "No published course plan for SL2565 (HT31, elective, 6 hp, Avancerad nivå); the fetch found no link on the program page.",
+          "recommendation": "Publish the course plan (with prerequisites, content and learning outcomes) before the program is offered, or remove the course from the program."
+        },
+        {
+          "run": "codex / gpt-5.4",
+          "id": "F-013",
+          "severity": "medium",
+          "description": "No published course plan is available for SL2565 in HT31, so the course occurrence cannot be reviewed.",
+          "recommendation": "Publish the course plan or replace the occurrence with a course that has a published plan before students are expected to select it."
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "course": "PA1481",
+      "semester": "VT28",
+      "type": "ambiguous-requirement",
+      "support": 1,
+      "runs": [
+        "claude-code / claude-sonnet-5-5"
+      ],
+      "severity": "low",
+      "tier": "minority",
+      "other_types_same_course": [],
+      "id": "C-015",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-001",
+          "severity": "low",
+          "description": "The plan requires Fysik 2 and Kemi 1, which have no visible connection to the content and are stricter than other first-term courses (MA1498 requires Fysik 1 only). It is unclear whether the program's admission requirements guarantee Fysik 2 and Kemi 1.",
+          "recommendation": "Verify that the program admission requirements include Fysik 2 and Kemi 1, or remove these requirements from the course plan if they are inherited from a template."
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "course": "DV1582",
+      "semester": "VT28",
+      "type": "ambiguous-requirement",
+      "support": 1,
+      "runs": [
+        "claude-code / claude-sonnet-5-5"
+      ],
+      "severity": "low",
+      "tier": "minority",
+      "other_types_same_course": [],
+      "id": "C-016",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-002",
+          "severity": "low",
+          "description": "The requirement says 'genomgången kurs ... 6 hp, varav minst 2 hp ska vara avklarade', which is self-contradictory (a completed course versus at least 2 of 6 hp completed).",
+          "recommendation": "State precisely whether the whole of DV1574 or only a part (e.g. specific examination moments totalling 2 hp) is required."
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "course": "PA1485",
+      "semester": "HT29",
+      "type": "competence-gap",
+      "support": 1,
+      "runs": [
+        "claude-code / claude-sonnet-5-5"
+      ],
+      "severity": "low",
+      "tier": "minority",
+      "other_types_same_course": [],
+      "id": "C-017",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-005",
+          "severity": "low",
+          "description": "Team-based development needs collaborative tooling (version control), but none of the program's course plans mentions it, and PA1485's plan does not state that it is taught.",
+          "recommendation": "Add version control and basic CI/tooling explicitly to the content of PA1484 or PA1485 so that later projects (PA2611, TE1429) can rely on it."
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "course": "DV2658",
+      "semester": "HT30",
+      "type": "ordering",
+      "support": 1,
+      "runs": [
+        "claude-code / claude-sonnet-5-5"
+      ],
+      "severity": "low",
+      "tier": "minority",
+      "other_types_same_course": [],
+      "id": "C-018",
+      "items": [
+        {
+          "run": "claude-code / claude-sonnet-5-5",
+          "id": "F-011",
+          "severity": "low",
+          "description": "DV2658 fine-tunes and develops neural generative models, but the dedicated deep learning course DV2646 Djup maskininlärning is placed in VT31, after DV2658 (HT30). Students rely on only introductory deep learning from DV2659/DV1683.",
+          "recommendation": "Consider moving DV2646 before HT30, or state in the DV2658 plan that neural network basics are taught within the course."
+        }
+      ]
+    }
+  ],
+  "matrix": [
+    {
+      "seq": 1,
+      "code": "MA1498",
+      "name": "Linjär algebra",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 2,
+      "code": "DV1574",
+      "name": "Programmering och problemlösning med Python",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 3,
+      "code": "DV1683",
+      "name": "Artificiell intelligens och ingenjörsmässighet",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 4,
+      "code": "MA1499",
+      "name": "Envariabelanalys 1: funktioner och differentialkalkyl",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 5,
+      "code": "IY1458",
+      "name": "Industriell ekonomi, översiktskurs",
+      "semester": "HT27",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 6,
+      "code": "MA1500",
+      "name": "Envariabelanalys 2: differentialekvationer och integralkalkyl",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 7,
+      "code": "PA1481",
+      "name": "Digital etik och hållbar utveckling",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 8,
+      "code": "DV1582",
+      "name": "Programmering i Python, fortsättningskurs",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 9,
+      "code": "MA1504",
+      "name": "Diskret matematik",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 10,
+      "code": "DV1682",
+      "name": "Datastrukturer och algoritmer",
+      "semester": "VT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 11,
+      "code": "MA1514",
+      "name": "Flervariabelanalys",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 12,
+      "code": "PA1484",
+      "name": "Programvaruutveckling",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "SPLIT",
+      "unanimous": false,
+      "flagged_by": 1,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 13,
+      "code": "FY1436",
+      "name": "Kraft och energi",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 14,
+      "code": "DV1730",
+      "name": "Datorteknik",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 15,
+      "code": "MS1419",
+      "name": "Matematisk statistik",
+      "semester": "HT28",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 16,
+      "code": "DV1697",
+      "name": "Operativsystem",
+      "semester": "VT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "GAP",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "GAP",
+        "codex / gpt-5.4": "GAP"
+      }
+    },
+    {
+      "seq": 17,
+      "code": "DV1663",
+      "name": "Databasteknik",
+      "semester": "VT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 18,
+      "code": "DV1685",
+      "name": "Datakommunikation och nätverksteknik",
+      "semester": "VT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 19,
+      "code": "DV1684",
+      "name": "Säkerhetsteknik",
+      "semester": "VT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 20,
+      "code": "DV1597",
+      "name": "Intelligent dataanalys",
+      "semester": "VT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 21,
+      "code": "ET1558",
+      "name": "Dynamiska system och återkoppling",
+      "semester": "HT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 22,
+      "code": "DV2659",
+      "name": "Tillämpad artificiell intelligens",
+      "semester": "HT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 23,
+      "code": "PA1485",
+      "name": "Mjukvaruutvecklingsprojekt i team",
+      "semester": "HT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "SPLIT",
+      "unanimous": false,
+      "flagged_by": 1,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 24,
+      "code": "PA1486",
+      "name": "Testning av mjukvara",
+      "semester": "HT29",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 25,
+      "code": "DV2606",
+      "name": "Multiprocessorprogrammering",
+      "semester": "HT29",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "SPLIT",
+      "unanimous": false,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "CONDITIONAL",
+        "codex / gpt-5.4": "GAP"
+      }
+    },
+    {
+      "seq": 26,
+      "code": "DV2638",
+      "name": "Maskininlärning",
+      "semester": "HT29",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 27,
+      "code": "DV1601",
+      "name": "Användbarhet och interaktionsdesign",
+      "semester": "VT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 28,
+      "code": "DV1688",
+      "name": "Digital undersökningsteknik",
+      "semester": "VT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "SPLIT",
+      "unanimous": false,
+      "flagged_by": 1,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 29,
+      "code": "TE1429",
+      "name": "Kandidatarbete i teknik för AI och maskininlärning",
+      "semester": "VT30",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 30,
+      "code": "DV2647",
+      "name": "Penetrationstestning och etisk hackning",
+      "semester": "VT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 31,
+      "code": "PA2601",
+      "name": "DevSecOps - Utveckling, säkerhet och drift",
+      "semester": "VT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 32,
+      "code": "DV2583",
+      "name": "Digital etik",
+      "semester": "HT30",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 33,
+      "code": "IY2649",
+      "name": "Technology venture 1: Innovation och affärsutveckling",
+      "semester": "HT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 34,
+      "code": "DV2607",
+      "name": "Säkerhet i AI-system",
+      "semester": "HT30",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 35,
+      "code": "SL2564",
+      "name": "Förståelse för marknader, företagande och design inom hållbarhetsomställningar",
+      "semester": "HT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "UNCLEAR",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "UNCLEAR"
+      }
+    },
+    {
+      "seq": 36,
+      "code": "MA1513",
+      "name": "Kryptologins grunder",
+      "semester": "HT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 37,
+      "code": "DV2606",
+      "name": "Multiprocessorprogrammering",
+      "semester": "HT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "CONDITIONAL",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "CONDITIONAL",
+        "codex / gpt-5.4": "CONDITIONAL"
+      }
+    },
+    {
+      "seq": 38,
+      "code": "SL2565",
+      "name": "Bedöma och designa inom omställningar till hållbarhet",
+      "semester": "HT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "UNCLEAR",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "UNCLEAR"
+      }
+    },
+    {
+      "seq": 39,
+      "code": "DV2658",
+      "name": "Generativ artificiell intelligens",
+      "semester": "HT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 40,
+      "code": "MS2506",
+      "name": "Bayesiansk statistik",
+      "semester": "HT30",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 41,
+      "code": "IY2650",
+      "name": "Technology venture 2: kommersialisering av innovationer",
+      "semester": "HT30",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "CONDITIONAL",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "CONDITIONAL",
+        "codex / gpt-5.4": "CONDITIONAL"
+      }
+    },
+    {
+      "seq": 42,
+      "code": "IY2658",
+      "name": "ICT start-ups och högteknologiskt entreprenörskap",
+      "semester": "VT31",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "UNCLEAR",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "UNCLEAR"
+      }
+    },
+    {
+      "seq": 43,
+      "code": "MS1415",
+      "name": "Robusta metoder",
+      "semester": "VT31",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 44,
+      "code": "DV2640",
+      "name": "Avancerad maskininlärning",
+      "semester": "VT31",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 45,
+      "code": "ET2627",
+      "name": "Robotik",
+      "semester": "VT31",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 46,
+      "code": "MA2517",
+      "name": "Kvantinformation och algoritmer för kvantdatorer",
+      "semester": "VT31",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "UNCLEAR",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "UNCLEAR"
+      }
+    },
+    {
+      "seq": 47,
+      "code": "DV2646",
+      "name": "Djup maskininlärning",
+      "semester": "VT31",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 48,
+      "code": "PA2611",
+      "name": "Avancerat mjukvaruutvecklingsprojekt i team",
+      "semester": "HT31",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 49,
+      "code": "DV2654",
+      "name": "Forskningsmetodik i datavetenskap",
+      "semester": "HT31",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "OK",
+      "unanimous": true,
+      "flagged_by": 0,
+      "any_flagged": false,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "OK",
+        "codex / gpt-5.4": "OK"
+      }
+    },
+    {
+      "seq": 50,
+      "code": "DV2606",
+      "name": "Multiprocessorprogrammering",
+      "semester": "HT31",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "CONDITIONAL",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "CONDITIONAL",
+        "codex / gpt-5.4": "CONDITIONAL"
+      }
+    },
+    {
+      "seq": 51,
+      "code": "IY2650",
+      "name": "Technology venture 2: kommersialisering av innovationer",
+      "semester": "HT31",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "CONDITIONAL",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "CONDITIONAL",
+        "codex / gpt-5.4": "CONDITIONAL"
+      }
+    },
+    {
+      "seq": 52,
+      "code": "SL2565",
+      "name": "Bedöma och designa inom omställningar till hållbarhet",
+      "semester": "HT31",
+      "type": "elective",
+      "answered": 2,
+      "consensus": "UNCLEAR",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "UNCLEAR"
+      }
+    },
+    {
+      "seq": 53,
+      "code": "DV2649",
+      "name": "Masterarbete i datavetenskap",
+      "semester": "VT32",
+      "type": "mandatory",
+      "answered": 2,
+      "consensus": "UNCLEAR",
+      "unanimous": true,
+      "flagged_by": 2,
+      "any_flagged": true,
+      "verdicts": {
+        "claude-code / claude-sonnet-5-5": "UNCLEAR",
+        "codex / gpt-5.4": "UNCLEAR"
+      }
+    }
+  ]
+}

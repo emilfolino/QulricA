@@ -1,0 +1,8 @@
+Two independent runs (Claude Code with `claude-sonnet-5-5`, Codex with `gpt-5.4`) agree on 49 of 53 verdicts, and all 14 priority issues were reported by both. The four high-severity issues are therefore well supported:
+
+1. **C/C++ is assumed but never taught.** DV1697 Operativsystem (VT29) runs its labs mainly in C/C++, and DV2606 Multiprocessorprogrammering repeats the gap in all three offerings (HT29, HT30, HT31). The guaranteed programming path before them is Python (plus assembly in DV1730). Either add C/C++ to an earlier mandatory course or state it as a prerequisite.
+2. **Two mandatory courses have no published course plan:** IY2658 (VT31) and DV2649, the 30 hp degree project (VT32). Their prerequisites cannot be checked. Four elective occurrences (SL2564, SL2565 twice, MA2517) are also missing plans.
+3. **IY2650 (HT30 and HT31) depends on the elective IY2649.** A student who did not choose IY2649 does not meet the prerequisite.
+4. **Imprecise prerequisite wording** in PA1484 and DV1688 (generic phrases that match no course code); both runs flagged it.
+
+The runs disagree on four courses. For PA1484, PA1485 and DV1688 the Claude run gave UNCLEAR where Codex gave OK, so the difference is how strictly vague wording is judged, not whether a problem exists. For DV2606 (HT29) the Claude run gave CONDITIONAL and Codex gave GAP, so a human should decide it. Four low-severity findings come from the Claude run only (PA1481, DV1582, PA1485 version-control tooling, DV2658 placed before DV2646); verify these before acting. Agreement between two models is not proof; the findings are candidates for human review.

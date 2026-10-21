@@ -21,6 +21,7 @@ npm test                                      # unit tests for the shared helper
 node .agents/skills/program-prerequisite-qa/scripts/fetch_program.mjs <url> --out work/<PROGRAM>-<START>
 node .agents/skills/program-prerequisite-qa/scripts/ledger.mjs work/<dir> <seq>
 node .agents/skills/program-prerequisite-qa/scripts/render_report.mjs work/<dir> --harness <h> --model <m>
+node .agents/skills/program-prerequisite-qa/scripts/combine_reports.mjs <PROGRAM>-<START> [--narrative n.md]   # >=2 runs -> reports/combined/
 scripts/render-pdf.sh reports/<report>.md [--template my.docx]   # PDF + DOCX; needs pandoc (or mise) and LibreOffice
 ```
 
@@ -34,6 +35,8 @@ Mechanical work is in deterministic Node scripts; the model only judges. This is
 4. `render_report.mjs` validates the analyses (schema + verdict-not-milder-than-evidence) and writes `reports/<PROGRAM>-<START>__<harness>__<model>__<date>.{md,json}`. Never hand-write reports.
 
 Semester labels: `HT27` = fall 2027, `VT28` = spring 2028; API semester code `20272` = HT27 (…1 = VT).
+
+Several agents can review the same program: each uses its own work dir `work/<PROGRAM>-<START>__<harness>__<model>` and produces its own report; `combine_reports.mjs` then merges all `reports/<PROGRAM>-<START>__*.json` into `reports/combined/` (per-course verdict matrix, issues clustered by course+finding type and tiered consensus/majority/minority, disagreements with each run's reasoning, pairwise agreement). Only the optional `--narrative` text is model-written; it must not add facts.
 
 PDF styling comes from a Word template: `render-pdf.sh` runs pandoc (md -> docx, using `templates/report-reference.docx` or `--template`) and then LibreOffice (docx -> pdf). Pandoc takes only *styles* and page setup (headings, Normal, Table, margins, orientation, header/footer) from a template, never its content. Table column widths come from the dash counts in the separator rows emitted by `render_report.mjs`; keep them if you change the tables. The JSON appendix is left out of the PDF unless `--keep-appendix`.
 

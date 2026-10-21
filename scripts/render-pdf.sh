@@ -25,7 +25,7 @@ command -v soffice >/dev/null || { echo "LibreOffice (soffice) not found" >&2; e
 
 base=${md%.md}
 src=$(mktemp --suffix=.md); trap 'rm -f "$src"' EXIT
-if [ $keep = 1 ]; then cp "$md" "$src"; else awk '/^## 5\. Machine-readable appendix/{exit} {print}' "$md" > "$src"; fi
+if [ $keep = 1 ]; then cp "$md" "$src"; else awk '/^## [0-9]+\. Machine-readable appendix/{exit} {print}' "$md" > "$src"; fi
 
 "${pandoc[@]}" "$src" -f markdown+pipe_tables+yaml_metadata_block -o "$base.docx" --reference-doc="$template"
 # separate profile dir: avoids clashing with a running LibreOffice

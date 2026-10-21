@@ -1,0 +1,1281 @@
+{
+  "program": {
+    "schema": "qulrica/program@1",
+    "source_url": "https://plan.bth.se/programmes/918bd1a0-43bf-11f1-9bfb-c8fd9ca940c5",
+    "fetched_at": "2026-10-21T12:32:21.510Z",
+    "program_code": "PAGWG",
+    "start_semester": "HT27",
+    "name": "Webbprogrammering",
+    "headline": "Webbprogrammering 120 hp",
+    "total_hp": 120,
+    "plan_language": "sv",
+    "totals": {
+      "courses": 15,
+      "mandatory": 15,
+      "elective": 0
+    },
+    "fetch_failures": [],
+    "courses": [
+      {
+        "page_order": 0,
+        "code": "DV1670",
+        "name": "Programmering och problemlösning med Python",
+        "hp": 7.5,
+        "semester": "HT27",
+        "semester_key": 20272,
+        "period_text": "Vecka 34 (2027) - Vecka 43 (2027)",
+        "period_start": 202734,
+        "period_end": 202743,
+        "study_period": "1",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=B6RTU&semester=20272&lang=sv",
+        "seq": 1,
+        "mandatory_hp_before_semester": 0,
+        "max_hp_before_semester": 0,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1670_HT27.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nGrundläggande behörighet"
+      },
+      {
+        "page_order": 1,
+        "code": "DV1704",
+        "name": "Webbteknologier",
+        "hp": 7.5,
+        "semester": "HT27",
+        "semester_key": 20272,
+        "period_text": "Vecka 34 (2027) - Vecka 43 (2027)",
+        "period_start": 202734,
+        "period_end": 202743,
+        "study_period": "1",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BHLKK&semester=20272&lang=sv",
+        "seq": 2,
+        "mandatory_hp_before_semester": 0,
+        "max_hp_before_semester": 0,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1704_HT27.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nGrundläggande behörighet"
+      },
+      {
+        "page_order": 2,
+        "code": "DV1701",
+        "name": "Objektorienterad programmering i CSharp",
+        "hp": 7.5,
+        "semester": "HT27",
+        "semester_key": 20272,
+        "period_text": "Vecka 44 (2027) - Vecka 2 (2028)",
+        "period_start": 202744,
+        "period_end": 202802,
+        "study_period": "2",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BP4UM&semester=20272&lang=sv",
+        "seq": 3,
+        "mandatory_hp_before_semester": 0,
+        "max_hp_before_semester": 0,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1701_HT27.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs genomgången kurs i programmering om 7,5 hp."
+      },
+      {
+        "page_order": 3,
+        "code": "DV1705",
+        "name": "UX-design med JavaScript",
+        "hp": 7.5,
+        "semester": "HT27",
+        "semester_key": 20272,
+        "period_text": "Vecka 44 (2027) - Vecka 2 (2028)",
+        "period_start": 202744,
+        "period_end": 202802,
+        "study_period": "2",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BGJW9&semester=20272&lang=sv",
+        "seq": 4,
+        "mandatory_hp_before_semester": 0,
+        "max_hp_before_semester": 0,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1705_HT27.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs genomgången kurs i webbprogrammering, 7,5 hp."
+      },
+      {
+        "page_order": 4,
+        "code": "DV1703",
+        "name": "Databasteknik",
+        "hp": 7.5,
+        "semester": "VT28",
+        "semester_key": 20281,
+        "period_text": "Vecka 3 (2028) - Vecka 12 (2028)",
+        "period_start": 202803,
+        "period_end": 202812,
+        "study_period": "3",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BYTCJ&semester=20281&lang=sv",
+        "seq": 5,
+        "mandatory_hp_before_semester": 30,
+        "max_hp_before_semester": 30,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1703_VT28.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs 7,5 genomgångna hp i programmering."
+      },
+      {
+        "page_order": 5,
+        "code": "DV1706",
+        "name": "Webbapplikationer för mobila enheter",
+        "hp": 7.5,
+        "semester": "VT28",
+        "semester_key": 20281,
+        "period_text": "Vecka 3 (2028) - Vecka 12 (2028)",
+        "period_start": 202803,
+        "period_end": 202812,
+        "study_period": "3",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BY4U4&semester=20281&lang=sv",
+        "seq": 6,
+        "mandatory_hp_before_semester": 30,
+        "max_hp_before_semester": 30,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1706_VT28.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs genomgångna kurser i webbprogrammering, 15 hp."
+      },
+      {
+        "page_order": 6,
+        "code": "DV1702",
+        "name": "Algoritmer och datastrukturer",
+        "hp": 7.5,
+        "semester": "VT28",
+        "semester_key": 20281,
+        "period_text": "Vecka 13 (2028) - Vecka 22 (2028)",
+        "period_start": 202813,
+        "period_end": 202822,
+        "study_period": "4",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BYEGU&semester=20281&lang=sv",
+        "seq": 7,
+        "mandatory_hp_before_semester": 30,
+        "max_hp_before_semester": 30,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1702_VT28.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs genomgångna kurser i programmering motsvarande 15 hp varav 7,5 hp ska vara i objektorienterad programmering med CSharp."
+      },
+      {
+        "page_order": 7,
+        "code": "DV1707",
+        "name": "Projekt webbprogrammering frontend",
+        "hp": 7.5,
+        "semester": "VT28",
+        "semester_key": 20281,
+        "period_text": "Vecka 13 (2028) - Vecka 22 (2028)",
+        "period_start": 202813,
+        "period_end": 202822,
+        "study_period": "4",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BXXUY&semester=20281&lang=sv",
+        "seq": 8,
+        "mandatory_hp_before_semester": 30,
+        "max_hp_before_semester": 30,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1707_VT28.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs genomgångna kurser i webbprogrammering, 15 hp."
+      },
+      {
+        "page_order": 8,
+        "code": "PA1493",
+        "name": "Mjukvaruutvecklingsprojekt",
+        "hp": 7.5,
+        "semester": "HT28",
+        "semester_key": 20282,
+        "period_text": "Vecka 35 (2028) - Vecka 43 (2028)",
+        "period_start": 202835,
+        "period_end": 202843,
+        "study_period": "1",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för programvaruteknik (DIPT)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BAQ7H&semester=20282&lang=sv",
+        "seq": 9,
+        "mandatory_hp_before_semester": 60,
+        "max_hp_before_semester": 60,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/PA1493_HT28.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs 15 avklarade hp i programmering."
+      },
+      {
+        "page_order": 9,
+        "code": "DV1711",
+        "name": "Programmering med JavaScript och Node",
+        "hp": 7.5,
+        "semester": "HT28",
+        "semester_key": 20282,
+        "period_text": "Vecka 35 (2028) - Vecka 43 (2028)",
+        "period_start": 202835,
+        "period_end": 202843,
+        "study_period": "1",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BWM6J&semester=20282&lang=sv",
+        "seq": 10,
+        "mandatory_hp_before_semester": 60,
+        "max_hp_before_semester": 60,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1711_HT28.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs avklarade kurser motsvarande 15 hp i programmering."
+      },
+      {
+        "page_order": 10,
+        "code": "MA1507",
+        "name": "Diskret matematik och algoritmer",
+        "hp": 7.5,
+        "semester": "HT28",
+        "semester_key": 20282,
+        "period_text": "Vecka 44 (2028) - Vecka 2 (2029)",
+        "period_start": 202844,
+        "period_end": 202902,
+        "study_period": "2",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Matematik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för matematik och naturvetenskap (TIMN)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BE9XR&semester=20282&lang=sv",
+        "seq": 11,
+        "mandatory_hp_before_semester": 60,
+        "max_hp_before_semester": 60,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/MA1507_HT28.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs Matematik 3b alt 3c eller Matematik C."
+      },
+      {
+        "page_order": 11,
+        "code": "DV1708",
+        "name": "Webbprogrammering backend",
+        "hp": 7.5,
+        "semester": "HT28",
+        "semester_key": 20282,
+        "period_text": "Vecka 44 (2028) - Vecka 2 (2029)",
+        "period_start": 202844,
+        "period_end": 202902,
+        "study_period": "2",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BGLJX&semester=20282&lang=sv",
+        "seq": 12,
+        "mandatory_hp_before_semester": 60,
+        "max_hp_before_semester": 60,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1708_HT28.txt",
+        "prerequisites_text": "2. Förkunskapskrav\nFör tillträde till kursen krävs avklarade kurser motsvarande 15 hp i programmering."
+      },
+      {
+        "page_order": 12,
+        "code": "DV1709",
+        "name": "Driftsättning av webbtjänster på Linux server",
+        "hp": 7.5,
+        "semester": "VT29",
+        "semester_key": 20291,
+        "period_text": "Vecka 3 (2029) - Vecka 12 (2029)",
+        "period_start": 202903,
+        "period_end": 202912,
+        "study_period": "3",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=BEK4F&semester=20291&lang=sv",
+        "seq": 13,
+        "mandatory_hp_before_semester": 90,
+        "max_hp_before_semester": 90,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1709_VT29.txt",
+        "prerequisites_text": "2.1 Behörighetskrav\nFör tillträde till kursen krävs minst 15 avklarade hp i programmering.\n\n2.2 Förutsatta kunskaper\nStudenten ska kunna förstå, skriva och felsöka webbapplikationer och webbtjänster med REST API:er med JavaScript och databaser samt god förståelse för designmönster och kunskap i Git samt Docker."
+      },
+      {
+        "page_order": 13,
+        "code": "PA1438",
+        "name": "Självständigt arbete i Webbprogrammering",
+        "hp": 15,
+        "semester": "VT29",
+        "semester_key": 20291,
+        "period_text": "Vecka 3 (2029) - Vecka 22 (2029)",
+        "period_start": 202903,
+        "period_end": 202922,
+        "study_period": "3",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=B9CKH&semester=20291&lang=sv",
+        "seq": 14,
+        "mandatory_hp_before_semester": 90,
+        "max_hp_before_semester": 90,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/PA1438_VT29.txt",
+        "prerequisites_text": "2. Förkunskapskrav\n60 hp avklarade på programmet Webbprogrammering"
+      },
+      {
+        "page_order": 14,
+        "code": "DV1710",
+        "name": "Projekt webbprogrammering fullstack",
+        "hp": 7.5,
+        "semester": "VT29",
+        "semester_key": 20291,
+        "period_text": "Vecka 13 (2029) - Vecka 22 (2029)",
+        "period_start": 202913,
+        "period_end": 202922,
+        "study_period": "4",
+        "type": "mandatory",
+        "type_text": "Obligatorisk",
+        "level": "Grundnivå",
+        "main_areas": [
+          "Datavetenskap",
+          "Programvaruteknik"
+        ],
+        "language": "Svenska",
+        "department": "Institutionen för datavetenskap (DIDA)",
+        "plan_url": "https://bth.azure-api.net/lindplan/courseplanbycode?code=B9TTF&semester=20291&lang=sv",
+        "seq": 15,
+        "mandatory_hp_before_semester": 90,
+        "max_hp_before_semester": 90,
+        "duplicate_of_earlier_occurrence": false,
+        "plan_file": "courses/DV1710_VT29.txt",
+        "prerequisites_text": "2.1 Behörighetskrav\nFör tillträde till kursen krävs minst 15 avklarade hp i programmering.\n\n2.2 Förutsatta kunskaper\nStudenten ska kunna förstå, skriva och hantera enklare programkonstruktioner, innefattande objektorienterade principer och koncept. Studenten ska ha förståelse för, kunna hantera och skriva enklare webbaserade tjänster och system avseende användargränssnitt och bakomliggande logik."
+      }
+    ]
+  },
+  "harness": "claude-code",
+  "model": "claude-sonnet-5-5",
+  "date": "2026-10-21",
+  "verdicts": {
+    "OK": 13,
+    "CONDITIONAL": 0,
+    "GAP": 2,
+    "UNCLEAR": 0
+  },
+  "analyses": [
+    {
+      "seq": 1,
+      "code": "DV1670",
+      "semester": "HT27",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because the course is an introductory programming course that only requires grundläggande behörighet.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan states 'Grundläggande behörighet' and describes 'en grundkurs i programmering' starting from simple constructs. Nothing in the content or outcomes presupposes prior university-level knowledge.",
+      "requirements": [
+        {
+          "requirement": "Grundläggande behörighet",
+          "kind": "upper-secondary",
+          "status": "MET",
+          "evidence": "Section 2 of DV1670 states only 'Grundläggande behörighet'; verified by admission."
+        }
+      ],
+      "assumed_competences": [],
+      "findings": [],
+      "provides": [
+        "Can write structured Python programs using variables, conditionals, loops and functions",
+        "Can use Python data structures, standard library and file handling",
+        "Can debug and handle errors in Python programs",
+        "Can develop a Python solution from a specification and document it",
+        "Can use a development environment and tools for Python development",
+        "Can critically evaluate own solutions and choose suitable constructs"
+      ]
+    },
+    {
+      "seq": 2,
+      "code": "DV1704",
+      "semester": "HT27",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because it is an introductory web technology course that requires only grundläggande behörighet and teaches JavaScript basics itself.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan states 'Grundläggande behörighet'. The content starts from HTML/CSS and introduces JavaScript 'med variabler, villkor, loopar och funktioner', so no prior programming is presupposed even though DV1670 runs concurrently.",
+      "requirements": [
+        {
+          "requirement": "Grundläggande behörighet",
+          "kind": "upper-secondary",
+          "status": "MET",
+          "evidence": "Section 2 of DV1704 states only 'Grundläggande behörighet'."
+        }
+      ],
+      "assumed_competences": [],
+      "findings": [],
+      "provides": [
+        "Can build and deploy websites with HTML and CSS",
+        "Can create responsive layouts with flexbox and media queries",
+        "Can program JavaScript in the browser with variables, control flow, functions, arrays and objects",
+        "Can manipulate the DOM and use event-driven programming",
+        "Can use simple web APIs such as Web Storage",
+        "Can use tools and browser development environments for web development"
+      ]
+    },
+    {
+      "seq": 3,
+      "code": "DV1701",
+      "semester": "HT27",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because DV1670 (7.5 hp programming) finishes before DV1701 starts and the content builds on basic programming.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires 'genomgången kurs i programmering om 7,5 hp'. DV1670 (mandatory, HT27 period 1, 7.5 hp) is a programming course finishing before DV1701 in period 2. UML and unit testing are introduced within DV1701 itself.",
+      "requirements": [
+        {
+          "requirement": "Genomgången kurs i programmering om 7,5 hp",
+          "kind": "course",
+          "status": "MET",
+          "evidence": "DV1670 Programmering och problemlösning med Python (7.5 hp, HT27 period 1, mandatory) is a programming course of exactly 7.5 hp and is finished before DV1701 starts."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Basic programming constructs (variables, conditionals, loops, functions, file handling, error handling)",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1670"
+          ],
+          "evidence": "DV1701 content 'variabler, metoder, datatyper... villkor, loopar... felhantering' is moved to C# syntax; DV1670 teaches these concepts in Python."
+        }
+      ],
+      "findings": [],
+      "provides": [
+        "Can develop object-oriented programs in C# with classes, encapsulation, inheritance and composition",
+        "Can apply polymorphism, abstract classes and interfaces",
+        "Can analyse and design object-oriented solutions with UML",
+        "Can write unit tests",
+        "Can use C# development tools and code-quality tools",
+        "Can critically review own code and identify improvements"
+      ]
+    },
+    {
+      "seq": 4,
+      "code": "DV1705",
+      "semester": "HT27",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because DV1704 (7.5 hp web technologies with HTML, CSS and JavaScript) finishes before DV1705 starts.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires 'genomgången kurs i webbprogrammering, 7,5 hp'. No course is titled that, but DV1704 Webbteknologier (7.5 hp, period 1) is the only course matching by content. DV1705 builds on HTML/CSS/DOM with deeper JavaScript, which DV1704 provides. The wording is imprecise only in naming.",
+      "requirements": [
+        {
+          "requirement": "Genomgången kurs i webbprogrammering, 7,5 hp",
+          "kind": "course",
+          "status": "MET",
+          "evidence": "DV1704 Webbteknologier (7.5 hp, HT27 period 1, mandatory) covers HTML, CSS and JavaScript in the browser incl. DOM; it finishes before DV1705 in period 2."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "HTML, CSS and basic JavaScript/DOM",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1704"
+          ],
+          "evidence": "DV1705 outcome 'visa breda och djupa kunskaper i att använda JavaScript, HTML och CSS' builds on the basics taught in DV1704."
+        }
+      ],
+      "findings": [
+        {
+          "type": "ambiguous-requirement",
+          "severity": "low",
+          "description": "The prerequisite 'kurs i webbprogrammering, 7,5 hp' does not name a course; the matching course is DV1704 Webbteknologier.",
+          "recommendation": "State the prerequisite as course code DV1704 (or its equivalent) in the plan."
+        }
+      ],
+      "provides": [
+        "Can apply colour theory, typography and grid layout in web design",
+        "Can adapt websites for accessibility and users with disabilities",
+        "Can develop usable and accessible web applications with JavaScript, HTML and CSS from a requirement specification",
+        "Can use JavaScript standard library, arrays, objects and the DOM at a deeper level",
+        "Can reflect on code quality in web design and on societal and ethical aspects of accessibility"
+      ]
+    },
+    {
+      "seq": 5,
+      "code": "DV1703",
+      "semester": "VT28",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because the student has 30 hp of programming from HT27 including object-oriented C# programming.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires '7,5 genomgångna hp i programmering'; DV1670 and DV1701 (each 7.5 hp, programming) are guaranteed. The course uses 'objektorienterade programmeringstekniker' for terminal database applications, which DV1701 provides. Database theory, ER modelling and SQL are introduced in the course itself.",
+      "requirements": [
+        {
+          "requirement": "7,5 genomgångna hp i programmering",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1670 (7.5 hp, Python) and DV1701 (7.5 hp, C# OOP), both mandatory HT27, are programming courses and count toward Datavetenskap/Programvaruteknik: 30 hp guaranteed in total."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Object-oriented programming for a terminal-based database application",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1701"
+          ],
+          "evidence": "Content 'Programmering av terminalbaserade applikationer för databaser, med objektorienterade programmeringstekniker'; DV1701 teaches classes, inheritance, terminal I/O in C#."
+        }
+      ],
+      "findings": [],
+      "provides": [
+        "Can explain relational databases and their pros and cons",
+        "Can model databases with ER diagrams and document them",
+        "Can create, modify and query databases with SQL, including stored procedures, functions and triggers",
+        "Can reason about transactions, indexes and database performance",
+        "Can design and implement a terminal-based database application"
+      ]
+    },
+    {
+      "seq": 6,
+      "code": "DV1706",
+      "semester": "VT28",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because DV1704 and DV1705 together give 15 hp of web programming before this course starts.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires 'genomgångna kurser i webbprogrammering, 15 hp'. DV1704 (7.5 hp) and DV1705 (7.5 hp), both mandatory in HT27, are the web programming courses and sum to 15 hp. The mobile/REST/web-socket content builds on HTML/CSS/JavaScript/DOM from those courses.",
+      "requirements": [
+        {
+          "requirement": "Genomgångna kurser i webbprogrammering, 15 hp",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1704 Webbteknologier (7.5 hp) + DV1705 UX-design med JavaScript (7.5 hp), both mandatory HT27, = 15 hp of web programming. Matched by content (HTML, CSS, JavaScript, DOM), as no course is literally titled 'webbprogrammering'."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "HTML5, CSS and JavaScript for web applications incl. DOM and responsive layout",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1704",
+            "DV1705"
+          ],
+          "evidence": "DV1706 content 'HTML5, CSS3, JavaScript med mobilt fokus' and 'Responsiv design' extends DV1704 (media queries, DOM) and DV1705."
+        },
+        {
+          "competence": "Accessibility awareness",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1705"
+          ],
+          "evidence": "DV1706 covers 'Mobil prestanda och tillgänglighet'; DV1705 teaches accessibility adaptation."
+        }
+      ],
+      "findings": [
+        {
+          "type": "ambiguous-requirement",
+          "severity": "low",
+          "description": "The prerequisite 'kurser i webbprogrammering, 15 hp' names no course codes; it is satisfied by DV1704 + DV1705 by content only.",
+          "recommendation": "Name DV1704 and DV1705 explicitly in the prerequisite."
+        }
+      ],
+      "provides": [
+        "Can develop mobile web applications with HTML5, CSS3 and JavaScript",
+        "Can use RESTful APIs, JSON and web sockets for real-time data",
+        "Can use device-specific web APIs such as geolocation and camera",
+        "Can test and debug on mobile devices and consider mobile performance and accessibility",
+        "Can reflect on societal aspects of mobile device usage"
+      ]
+    },
+    {
+      "seq": 7,
+      "code": "DV1702",
+      "semester": "VT28",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because DV1670 and DV1701 give 15 hp of programming including 7.5 hp object-oriented C#.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires 'programmering motsvarande 15 hp varav 7,5 hp ska vara i objektorienterad programmering med CSharp'. DV1701 is exactly the C# OOP course (7.5 hp) and DV1670 adds 7.5 hp Python programming; both are mandatory and finished in HT27. Implementing ADTs 'genom gränssnitt' and building structures 'av klasser' relies on DV1701 outcomes (interfaces, classes).",
+      "requirements": [
+        {
+          "requirement": "Genomgångna kurser i programmering motsvarande 15 hp",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1670 (7.5 hp) + DV1701 (7.5 hp) = 15 hp programming, both mandatory HT27 (DV1704/DV1705/DV1703 add more)."
+        },
+        {
+          "requirement": "Varav 7,5 hp i objektorienterad programmering med CSharp",
+          "kind": "course",
+          "status": "MET",
+          "evidence": "DV1701 Objektorienterad programmering i CSharp (7.5 hp, HT27, mandatory)."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Object-oriented programming with classes and interfaces",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1701"
+          ],
+          "evidence": "Outcome 'implementera och använda abstrakta datatyper genom gränssnitt samt konstruera datastrukturer av klasser' builds on DV1701 classes, abstract classes and interfaces."
+        },
+        {
+          "competence": "Basic mathematical reasoning for complexity analysis (growth of functions)",
+          "status": "UPPER_SECONDARY",
+          "provided_by": [],
+          "evidence": "'Grundläggande komplexitetsanalys' is introduced in the course; the mathematics needed is at gymnasium level."
+        },
+        {
+          "competence": "Arrays/lists, loops and basic algorithmic problem solving",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1670",
+            "DV1701"
+          ],
+          "evidence": "Search/sort and array-based structures use loops, arrays and lists taught in DV1670 and DV1701."
+        }
+      ],
+      "findings": [],
+      "provides": [
+        "Can explain and implement search and sorting algorithms",
+        "Can implement abstract data types (lists, stacks, queues, trees, graphs) with linked lists, trees, heaps and hash tables",
+        "Can analyse time complexity of algorithms",
+        "Can use recursion",
+        "Can choose suitable algorithms and data structures for common problems",
+        "Can reflect on algorithm performance in relation to energy use and environmental impact"
+      ]
+    },
+    {
+      "seq": 8,
+      "code": "DV1707",
+      "semester": "VT28",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because DV1704, DV1705 and DV1706 provide the web programming, REST and mobile web skills the project builds on.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires 'genomgångna kurser i webbprogrammering, 15 hp', met by DV1704+DV1705 (and DV1706, finished in period 3). The project content (responsive apps, REST integration, mobile adaptation/PWA) follows DV1706. Version control and CI are listed as course content, so they are treated as taught in the course, but no earlier course introduces them.",
+      "requirements": [
+        {
+          "requirement": "Genomgångna kurser i webbprogrammering, 15 hp",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1704 (7.5 hp) + DV1705 (7.5 hp), mandatory HT27, = 15 hp; DV1706 (7.5 hp, VT28 period 3) adds a further 7.5 hp web programming before DV1707 starts in period 4."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Frontend development with HTML/CSS/JavaScript, responsive design",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1704",
+            "DV1705",
+            "DV1706"
+          ],
+          "evidence": "Content 'Implementation av responsiva webbapplikationer med moderna frontend-tekniker' builds on DV1704/DV1705/DV1706 outcomes."
+        },
+        {
+          "competence": "Consuming REST APIs and data handling",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1706"
+          ],
+          "evidence": "Content 'Datahantering och integration av REST API:er'; DV1706 teaches RESTful APIs and JSON."
+        },
+        {
+          "competence": "Mobile adaptation of web apps (progressive web applications)",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1706"
+          ],
+          "evidence": "Content 'Mobilanpassning med tekniker för progressiva webbapplikationer'; DV1706 teaches mobile web apps."
+        },
+        {
+          "competence": "Accessibility and usability in web design",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1705"
+          ],
+          "evidence": "A complete web application delivered from a specification should be usable and accessible as practised in DV1705."
+        }
+      ],
+      "findings": [
+        {
+          "type": "other",
+          "severity": "low",
+          "description": "DV1707 lists 'Versionshantering, kontinuerlig integration och driftsättning' and group project methodology as content, but no earlier course in the program (HT27-VT28 period 3) introduces version control or CI; it is unclear whether the course teaches them or assumes them.",
+          "recommendation": "State in the DV1707 plan whether version control/CI are taught or assumed, and if assumed, add an introduction to git in an earlier course (e.g. DV1670 or DV1701)."
+        }
+      ],
+      "provides": [
+        "Can analyse a requirement specification and write a system specification for a web project",
+        "Can work in a team using project methodology for sustainable collaboration",
+        "Can implement responsive frontend web applications with modern techniques and REST API integration",
+        "Can build progressive web applications for mobile",
+        "Can use version control, continuous integration and deployment",
+        "Can critically review another group's technical solution"
+      ]
+    },
+    {
+      "seq": 9,
+      "code": "PA1493",
+      "semester": "HT28",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because the student has 60 hp, of which well over 15 hp programming, and prior project and design experience.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires '15 avklarade hp i programmering'; DV1670, DV1701 and others give far more guaranteed. The customer project builds on teamwork and specification-driven development from DV1707, OO design/testing from DV1701 and web development from DV1704-DV1706. Agile methods and requirements handling are introduced in the course itself.",
+      "requirements": [
+        {
+          "requirement": "15 avklarade hp i programmering",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1670 + DV1701 = 15 hp programming; with DV1704, DV1705, DV1706, DV1703, DV1702, DV1707 the student has 60 guaranteed hp in Datavetenskap/Programvaruteknik by HT28."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Implementing and testing a small application from a specification",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1701",
+            "DV1707"
+          ],
+          "evidence": "Outcome 'Designa och implementera en mindre programvaruapplikation iterativt' builds on DV1701 (OOP, UML, unit tests) and DV1707 (project from specification)."
+        },
+        {
+          "competence": "Working in a team and reflecting on group work",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1707"
+          ],
+          "evidence": "Professional approach to time, tasks and commitments in a project; DV1707 outcomes cover team collaboration and sustainable group work."
+        },
+        {
+          "competence": "Reflecting on technical decisions and own code",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1701",
+            "DV1705"
+          ],
+          "evidence": "DV1701 and DV1705 include critical review of code and written reflection."
+        }
+      ],
+      "findings": [],
+      "provides": [
+        "Can explain software engineering processes and the software life cycle",
+        "Can apply agile development including sprint planning, feedback and delivery",
+        "Can elicit, document and analyse customer requirements",
+        "Can design and implement a small application iteratively for a customer",
+        "Can plan, report on and reflect on a software project in writing and orally",
+        "Can show professional approach in managing time and commitments"
+      ]
+    },
+    {
+      "seq": 10,
+      "code": "DV1711",
+      "semester": "HT28",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because the student has 15 hp or more of programming and the JavaScript, database, REST and testing basics the course uses.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires 'avklarade kurser motsvarande 15 hp i programmering', met by DV1670 + DV1701 and more. Node.js server programming with REST, database connection, websockets and unit tests builds on JavaScript (DV1704, DV1705), SQL (DV1703), REST/websockets (DV1706) and unit testing (DV1701).",
+      "requirements": [
+        {
+          "requirement": "Avklarade kurser motsvarande 15 hp i programmering",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1670 (7.5 hp) + DV1701 (7.5 hp) = 15 hp; 60 hp guaranteed in Datavetenskap/Programvaruteknik by HT28."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "JavaScript programming",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1704",
+            "DV1705"
+          ],
+          "evidence": "'Programmering med JavaScript och Node' presumes JavaScript syntax and DOM-free language use, taught in DV1704 and DV1705."
+        },
+        {
+          "competence": "Database access (SQL) for REST API with database connection",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1703"
+          ],
+          "evidence": "Content 'Serverprogrammering med REST API med databaskoppling'; DV1703 teaches relational databases and SQL."
+        },
+        {
+          "competence": "REST, JSON and websockets",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1706"
+          ],
+          "evidence": "Content 'HTTP-protokollet', 'Websocket och realtidsprogrammering'; DV1706 covers RESTful APIs, JSON and web sockets from the client side."
+        },
+        {
+          "competence": "Unit testing",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1701"
+          ],
+          "evidence": "Content 'Enhetstester med JavaScript'; DV1701 introduces unit testing."
+        }
+      ],
+      "findings": [],
+      "provides": [
+        "Can develop programs with JavaScript and Node.js from a specification",
+        "Can build terminal-based clients and use terminal tools",
+        "Can write server programs with REST APIs connected to a database",
+        "Can use workers for parallel programming and websockets for real-time communication",
+        "Can explain the HTTP protocol and client-server architecture",
+        "Can write unit tests in JavaScript"
+      ]
+    },
+    {
+      "seq": 11,
+      "code": "MA1507",
+      "semester": "HT28",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because the only requirement is upper-secondary mathematics, which the admission process verifies.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires 'Matematik 3b alt 3c eller Matematik C', an upper-secondary requirement. The course is an introduction to discrete mathematics; recursion and algorithms are met from DV1702 but are introduced here from scratch.",
+      "requirements": [
+        {
+          "requirement": "Matematik 3b alt 3c eller Matematik C",
+          "kind": "upper-secondary",
+          "status": "MET",
+          "evidence": "Upper-secondary mathematics requirement verified in admission; not a program course."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Algorithmic thinking and recursion (for the outcome on usefulness and limits of the treated algorithms)",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1702"
+          ],
+          "evidence": "Content 'Rekursion och induktion', 'Euklides algoritm'; DV1702 (VT28) teaches algorithms and recursion, though the course does not depend on it."
+        }
+      ],
+      "findings": [],
+      "provides": [
+        "Can use set theory, relations and functions",
+        "Can apply number theory: divisibility, primes, Euclid's algorithm, modular arithmetic",
+        "Can use recursion, induction, sums and sequences",
+        "Can solve basic combinatorics and conditional probability problems",
+        "Can use propositional and predicate logic",
+        "Can work with graphs, trees, finite automata and formal languages"
+      ]
+    },
+    {
+      "seq": 12,
+      "code": "DV1708",
+      "semester": "HT28",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because the student has the programming credits and the server-side JavaScript, database and REST background from DV1711, DV1703 and DV1706.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The plan requires 'avklarade kurser motsvarande 15 hp i programmering', met by DV1670 + DV1701 and more. Backend frameworks, REST APIs, realtime web and database connection build on DV1711 (Node, REST, databases, websockets, finished in period 1), DV1703 (SQL) and DV1706. MVC and security are introduced within the course.",
+      "requirements": [
+        {
+          "requirement": "Avklarade kurser motsvarande 15 hp i programmering",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1670 + DV1701 = 15 hp; 75 hp guaranteed (Programvaruteknik 75) by this point."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Server-side programming with REST APIs and database connection in JavaScript/Node",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1711"
+          ],
+          "evidence": "DV1711 (HT28 period 1) teaches 'Serverprogrammering med REST API med databaskoppling' and HTTP; DV1708 uses frameworks for the same."
+        },
+        {
+          "competence": "SQL and relational databases",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1703"
+          ],
+          "evidence": "Content 'Koppling till databaser'; DV1703 teaches relational databases and SQL."
+        },
+        {
+          "competence": "Realtime web with websockets",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1706",
+            "DV1711"
+          ],
+          "evidence": "Content 'Realtidswebb'; websockets taught in DV1706 and DV1711."
+        },
+        {
+          "competence": "HTML/CSS and client-side JavaScript for server-rendered views",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1704",
+            "DV1705"
+          ],
+          "evidence": "Server-side rendering with views and templates produces HTML/CSS as taught in DV1704/DV1705."
+        }
+      ],
+      "findings": [],
+      "provides": [
+        "Can develop web services with a backend framework",
+        "Can apply the Model View Controller design pattern",
+        "Can render web pages server-side with views and templates",
+        "Can develop RESTful APIs with security and authentication",
+        "Can build real-time web features and connect to databases",
+        "Can deploy a website from a specification"
+      ]
+    },
+    {
+      "seq": 13,
+      "code": "DV1709",
+      "semester": "VT29",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Not fully, because the plan assumes Docker knowledge that no earlier course in the program provides, and Git is only thinly covered.",
+      "verdict": "GAP",
+      "confidence": "high",
+      "rationale": "The formal requirement of 15 hp programming is met. However section 2.2 'Förutsatta kunskaper' states the student must have 'kunskap i Git samt Docker', and no course plan before DV1709 mentions Docker or containers (the word appears only in DV1709). Git is not named anywhere either; only DV1707 lists 'Versionshantering'. Web/REST/JavaScript/database/design-pattern knowledge is well covered by DV1706, DV1711, DV1708, DV1703. The plan is also internally inconsistent, since Docker is also listed as course content ('Driftsättning och övervakning med docker och docker compose').",
+      "requirements": [
+        {
+          "requirement": "Minst 15 avklarade hp i programmering",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1670 + DV1701 = 15 hp programming; 90 hp guaranteed by VT29."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Understand, write and debug web applications and web services with REST APIs, JavaScript and databases",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1711",
+            "DV1708",
+            "DV1706",
+            "DV1703"
+          ],
+          "evidence": "2.2 'förstå, skriva och felsöka webbapplikationer och webbtjänster med REST API:er med JavaScript och databaser': DV1711 (Node REST + DB), DV1708 (RESTful APIs, backend), DV1706 (REST/JSON), DV1703 (SQL)."
+        },
+        {
+          "competence": "Good understanding of design patterns",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1708"
+          ],
+          "evidence": "DV1708 teaches 'Designmönster Model View Controller (MVC)' and design patterns for web services; DV1701 introduces object-oriented design with UML."
+        },
+        {
+          "competence": "Knowledge of Git",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1707"
+          ],
+          "evidence": "2.2 requires 'kunskap i Git'. Only DV1707 lists 'Versionshantering, kontinuerlig integration och driftsättning' as content; Git is never named in any earlier plan, so coverage is thin."
+        },
+        {
+          "competence": "Knowledge of Docker (containers)",
+          "status": "NOT_COVERED",
+          "provided_by": [],
+          "evidence": "2.2 requires 'kunskap i ... Docker'. No earlier plan (DV1670-DV1708, MA1507, PA1493) mentions Docker or containers; the term first appears in DV1709's own content."
+        }
+      ],
+      "findings": [
+        {
+          "type": "competence-gap",
+          "severity": "high",
+          "description": "DV1709 'Förutsatta kunskaper' require knowledge of Docker (and Git), but no earlier mandatory course teaches Docker, and Git is only implicit in DV1707's 'Versionshantering'. DV1709 itself lists Docker/docker compose as course content, so the plan contradicts itself.",
+          "recommendation": "Either remove Docker from the assumed knowledge in DV1709 (since the course teaches it), or add Docker to an earlier course (e.g. DV1708 or DV1711); also name Git explicitly in DV1707 or an earlier course."
+        }
+      ],
+      "provides": [
+        "Can install, configure and use a Linux-based cloud server",
+        "Can design an application split into microservices",
+        "Can deploy, monitor and upgrade an application with Docker and docker compose",
+        "Can explain the DevOps role and continuous integration and deployment",
+        "Can prepare an application for deployment in the cloud"
+      ]
+    },
+    {
+      "seq": 14,
+      "code": "PA1438",
+      "semester": "VT29",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Formally yes, but the program gives no instruction in scientific method, literature search or report writing that the thesis outcomes rely on.",
+      "verdict": "GAP",
+      "confidence": "medium",
+      "rationale": "The credit requirement '60 hp avklarade på programmet Webbprogrammering' is met (90 hp guaranteed). The technical content is well covered by DV1704-DV1711 and PA1493 (customer project, agile, requirements, reflection). But outcomes such as 'kännedom om områdets vetenskapliga grund', 'söka, samla och kritiskt tolka relevant information' and 'dokumentera arbetet i form av en rapport' build on a scientific/academic foundation that no earlier course plan states; only short written reflections appear in DV1705 and PA1493. The thesis plan offers only introductory lessons on planning.",
+      "requirements": [
+        {
+          "requirement": "60 hp avklarade på programmet Webbprogrammering",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "90 hp of mandatory courses (all grundnivå) are completed before VT29 period 3 per the ledger; this exceeds 60 hp. The same program's concurrent DV1709/DV1710 are not needed."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Technical competence in web programming (frontend, backend, database, REST) to apply in an independent project",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1704",
+            "DV1705",
+            "DV1706",
+            "DV1707",
+            "DV1708",
+            "DV1711",
+            "DV1703"
+          ],
+          "evidence": "Outcome 'tillämpa förvärvade kunskaper och färdigheter för att lösa problemställningar' within Webbprogrammering; covered by the web and backend courses."
+        },
+        {
+          "competence": "Project planning and working method incl. time planning",
+          "status": "COVERED",
+          "provided_by": [
+            "PA1493",
+            "DV1707"
+          ],
+          "evidence": "Outcome 'utforma en projektplan inkluderande arbetsmetod och tidsplanering'; PA1493 teaches planning and management of software projects, DV1707 team project method."
+        },
+        {
+          "competence": "Scientific foundation, systematic literature search, critical source evaluation and academic report writing",
+          "status": "NOT_COVERED",
+          "provided_by": [],
+          "evidence": "Outcomes 'kännedom om områdets vetenskapliga grund', 'söka, samla och kritiskt tolka relevant information', 'dokumentera arbetet i form av en rapport'. No earlier course plan names research method, source criticism or report writing; DV1705 and PA1493 only have short written reflection."
+        },
+        {
+          "competence": "Independent knowledge acquisition",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1670",
+            "DV1704"
+          ],
+          "evidence": "Outcome 'självständigt inhämta de kunskaper som krävs'; earlier courses include literature study and independent assignments, though this is a general study skill."
+        }
+      ],
+      "findings": [
+        {
+          "type": "competence-gap",
+          "severity": "medium",
+          "description": "The thesis outcomes assume scientific foundation, literature search/critical source evaluation and report writing, but no mandatory course before PA1438 teaches research methodology or academic writing; only short reflections occur in DV1705 and PA1493.",
+          "recommendation": "Add content on scientific method, source criticism and technical report writing to an earlier mandatory course (e.g. PA1493) or add a short module/course before the thesis."
+        }
+      ],
+      "provides": [
+        "Can independently identify a relevant question and plan a degree project",
+        "Can integrate and apply web programming knowledge in an independent project",
+        "Can search, collect and critically interpret relevant information",
+        "Can document and present results in a written report and discuss them orally",
+        "Can discuss results in relation to project requirements"
+      ]
+    },
+    {
+      "seq": 15,
+      "code": "DV1710",
+      "semester": "VT29",
+      "question": "Can a student with the skills, knowledge and dispositions obtained in the program so far (plus upper-secondary education) complete this course, based on its course plan?",
+      "answer": "Yes, because the student has all the OOP, frontend, backend, database and deployment courses the fullstack project builds on.",
+      "verdict": "OK",
+      "confidence": "high",
+      "rationale": "The formal requirement 'minst 15 avklarade hp i programmering' is met by DV1670 + DV1701 and more. The assumed knowledge (object-oriented principles, simple web services with user interface and backend logic) is provided by DV1701, DV1705, DV1706, DV1708 and DV1711. DV1709 (period 3) finishes before DV1710 (period 4) and supplies deployment/CI context. Team project method is a repeat of DV1707.",
+      "requirements": [
+        {
+          "requirement": "Minst 15 avklarade hp i programmering",
+          "kind": "credits",
+          "status": "MET",
+          "evidence": "DV1670 + DV1701 = 15 hp programming; 97.5 hp guaranteed by VT29 period 4."
+        }
+      ],
+      "assumed_competences": [
+        {
+          "competence": "Object-oriented principles and concepts in simple programs",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1701"
+          ],
+          "evidence": "2.2 'enklare programkonstruktioner, innefattande objektorienterade principer'; DV1701 teaches OOP."
+        },
+        {
+          "competence": "Simple web services and systems incl. user interface and backend logic",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1705",
+            "DV1706",
+            "DV1708",
+            "DV1711"
+          ],
+          "evidence": "2.2 'webbaserade tjänster och system avseende användargränssnitt och bakomliggande logik'; frontend in DV1705/DV1706/DV1707, backend in DV1708/DV1711."
+        },
+        {
+          "competence": "Team project work, requirement analysis and sustainable group work",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1707",
+            "PA1493"
+          ],
+          "evidence": "Content 'Tolkning och analys av en given kravspecifikation' and 'Projektmetodik för hållbart och effektivt samarbete i team' repeat DV1707 outcomes; PA1493 adds agile practice."
+        },
+        {
+          "competence": "Version control, continuous integration and deployment",
+          "status": "COVERED",
+          "provided_by": [
+            "DV1707",
+            "DV1709"
+          ],
+          "evidence": "Content 'Versionshantering, kontinuerlig integration och driftsättning'; DV1707 lists versionshantering/CI, DV1709 teaches CI/CD and deployment (finishes in period 3 before DV1710)."
+        }
+      ],
+      "findings": [],
+      "provides": [
+        "Can analyse a requirement specification and plan a fullstack project",
+        "Can implement a web application across all layers from data handling to user interface",
+        "Can work in a team using methods for sustainable collaboration",
+        "Can use version control, continuous integration and deployment",
+        "Can critically review own and other groups' technical solutions"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-004",
+      "seq": 13,
+      "course": "DV1709",
+      "semester": "VT29",
+      "course_name": "Driftsättning av webbtjänster på Linux server",
+      "type": "competence-gap",
+      "severity": "high",
+      "description": "DV1709 'Förutsatta kunskaper' require knowledge of Docker (and Git), but no earlier mandatory course teaches Docker, and Git is only implicit in DV1707's 'Versionshantering'. DV1709 itself lists Docker/docker compose as course content, so the plan contradicts itself.",
+      "recommendation": "Either remove Docker from the assumed knowledge in DV1709 (since the course teaches it), or add Docker to an earlier course (e.g. DV1708 or DV1711); also name Git explicitly in DV1707 or an earlier course."
+    },
+    {
+      "id": "F-005",
+      "seq": 14,
+      "course": "PA1438",
+      "semester": "VT29",
+      "course_name": "Självständigt arbete i Webbprogrammering",
+      "type": "competence-gap",
+      "severity": "medium",
+      "description": "The thesis outcomes assume scientific foundation, literature search/critical source evaluation and report writing, but no mandatory course before PA1438 teaches research methodology or academic writing; only short reflections occur in DV1705 and PA1493.",
+      "recommendation": "Add content on scientific method, source criticism and technical report writing to an earlier mandatory course (e.g. PA1493) or add a short module/course before the thesis."
+    },
+    {
+      "id": "F-001",
+      "seq": 4,
+      "course": "DV1705",
+      "semester": "HT27",
+      "course_name": "UX-design med JavaScript",
+      "type": "ambiguous-requirement",
+      "severity": "low",
+      "description": "The prerequisite 'kurs i webbprogrammering, 7,5 hp' does not name a course; the matching course is DV1704 Webbteknologier.",
+      "recommendation": "State the prerequisite as course code DV1704 (or its equivalent) in the plan."
+    },
+    {
+      "id": "F-002",
+      "seq": 6,
+      "course": "DV1706",
+      "semester": "VT28",
+      "course_name": "Webbapplikationer för mobila enheter",
+      "type": "ambiguous-requirement",
+      "severity": "low",
+      "description": "The prerequisite 'kurser i webbprogrammering, 15 hp' names no course codes; it is satisfied by DV1704 + DV1705 by content only.",
+      "recommendation": "Name DV1704 and DV1705 explicitly in the prerequisite."
+    },
+    {
+      "id": "F-003",
+      "seq": 8,
+      "course": "DV1707",
+      "semester": "VT28",
+      "course_name": "Projekt webbprogrammering frontend",
+      "type": "other",
+      "severity": "low",
+      "description": "DV1707 lists 'Versionshantering, kontinuerlig integration och driftsättning' and group project methodology as content, but no earlier course in the program (HT27-VT28 period 3) introduces version control or CI; it is unclear whether the course teaches them or assumes them.",
+      "recommendation": "State in the DV1707 plan whether version control/CI are taught or assumed, and if assumed, add an introduction to git in an earlier course (e.g. DV1670 or DV1701)."
+    }
+  ]
+}

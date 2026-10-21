@@ -34,7 +34,7 @@ Record which harness and model you are, because reports from different ones are 
 node .agents/skills/program-prerequisite-qa/scripts/fetch_program.mjs "<URL>" --out work/<PROGRAM>-<START>
 ```
 
-`<PROGRAM>-<START>` e.g. `DVAAM-HT27` (the script prints program code and start semester; if you do not know them yet, run once with `--out work/tmp`, read the output line, then rename the directory). The fetch is slow (the course-plan API rate-limits and the script waits) and resumable: re-run it if interrupted.
+`<dir>` = `<PROGRAM>-<START>__<harness>__<model>` with the model id lower-cased and non `[a-z0-9.]` characters replaced by `-` (e.g. `DVAAM-HT27__claude-code__claude-haiku-5-5`), so runs by different agents never share analyses and can be combined later (see section 5). If you do not know program code and start semester yet, run once with `--out work/tmp`, read the output line, then rename the directory. The fetch is slow (the course-plan API rate-limits and the script waits) and resumable. To save time, if `work/` already holds a directory for the same program from another run, copy it first (`cp -r work/<other> work/<dir> && rm -rf work/<dir>/analysis`) and run the fetch anyway; it reuses the cached plans.
 
 It writes `work/<dir>/program.json` (courses sorted by semester then study period, each with `seq`, `code`, `type` mandatory|elective, `hp`, `level`, `main_areas`, `plan_file`, `prerequisites_text`) and `courses/*.txt` (full plans). Read the stderr WARNING lines: a course without a published plan is itself a finding.
 
@@ -63,3 +63,13 @@ If it exits 1 it lists schema or consistency errors per course. Fix those analys
 - Do not invent prerequisites the plan does not state; only flag what the plan text, learning outcomes or content genuinely assume.
 - Never report a verdict you did not derive from the files. If the plan is missing or too thin, the verdict is `UNCLEAR`.
 - Do not modify `program.json` or the fetched course plans.
+
+## 5. Combined executive report (optional; when several agents have reviewed the same program)
+
+Each agent runs sections 1-4 in its own work directory. Then, once:
+
+```bash
+node .agents/skills/program-prerequisite-qa/scripts/combine_reports.mjs <PROGRAM>-<START> [--narrative narrative.md]
+```
+
+It reads every `reports/<PROGRAM>-<START>__*.json`, writes `reports/combined/<PROGRAM>-<START>__combined__<date>.{md,json}` and prints the consensus statistics, the disagreements and the single-agent findings. If you were asked for the executive report, first read that output, write a short narrative (max ~250 words, English: overall assessment, the 3-5 issues to act on first, where the agents disagreed and what you would verify) to `narrative.md`, and re-run with `--narrative narrative.md`. The narrative may only use facts that appear in the combiner output. Never edit the combined report by hand. For a PDF use `scripts/render-pdf.sh`.
