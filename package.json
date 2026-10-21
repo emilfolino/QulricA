@@ -1,0 +1,13 @@
+{
+  "name": "qulrica",
+  "private": true,
+  "type": "module",
+  "description": "Quality assurance skills for educational programs at Swedish higher education institutions",
+  "scripts": {
+    "fetch": "node .agents/skills/program-prerequisite-qa/scripts/fetch_program.mjs",
+    "test": "node --test .agents/skills/program-prerequisite-qa/scripts/"
+  },
+  "dependencies": {
+    "playwright-core": "^1.50.0"
+  }
+}
